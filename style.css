@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #FFF2E7;
+    gap: 200px;
+}
+
+.navbar>ol {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.navbar>ol>li{
+    list-style: none;
+    font-family: Sarala;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 39px;
+    color: #ECD6C4;
+    cursor: pointer;
+}
+
+.navbar>svg{
+    width: 52px;
+}
+
+.parteCima{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+
+
+.direitaMain>p:nth-child(1){
+    font-family: Righteous;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 79px;
+    color:  #FFF2E7;
+
+}
+.direitaMain>p:nth-child(2){
+    font-family: Sarala;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
+    color: #ECD6C4;
+}
+.direitaMain>button{
+    font-family: Sarala;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #ECD6C4;
+    color:#2F2325;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.direitaMain>button:hover{
+    background-color: #2F2325;
+    color: #ECD6C4;
+    transition: 0.2s;
+}
+
+.esquerdaMain>svg{
+    width: 260px;
+}
+
+.parteBaixo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footerMain>p{
+    font-family: Sarala;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 7px;
+    color: #ECD6C4;
+    margin: 7px;
+   
+}
+
+.footerMain>p:nth-child(1){
+    border-top: 1px solid #ECD6C4;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+
+
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 30px;
+    border-top: 1px solid #ECD6C4;
+}
